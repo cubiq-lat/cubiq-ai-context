@@ -24,6 +24,7 @@ Cubiq is a Product-oriented Software Factory, a Digital Platform for SMBs, and B
 - Website: https://www.cubiq.lat
 - API Docs: https://api.cubiq.lat/docs
 - GitHub: https://github.com/minimo-io
+- Detailed Documentation: https://github.com/cubiq-lat/cubiq-ai-context/blob/main/README.md
 
 ## Founders
 
