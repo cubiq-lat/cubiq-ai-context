@@ -5,8 +5,7 @@ Centralized knowledge base for AI agents working with Cubiq projects.
 
 This repository centralizes all the **institutional memory, guidelines, and context** necessary for Artificial Intelligences (LLMs) to work in alignment with **Cubiq**.
 
-It functions as a **Single Source of Truth** for AI agents, code assistants (Cursor, Copilot), and automation workflows. The goal is to ensure consistency, quality, and adherence to our identity across all interactions.
----
+It functions as a **Single Source of Truth** for AI agents, code assistants (Cursor, Copilot), and automation workflows. The goal is to ensure consistency, quality, and adherence to our identity across all interactions. 
 
 ## 🏢 What is Cubiq?
 
