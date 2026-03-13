@@ -31,6 +31,7 @@ The domain where it lives is at https://www.cubiq.lat
 * Figma for design.
 * Tauri (with Sveltekit) as an app development framework.
 * Supabase Managed Postgres database.
+* Github, were all our private and public repos live.
 * For AI:
     * Opencode (https://opencode.ai/) as an ai coding agent connected to Fireworks AI (https://fireworks.ai/) and/or OpenRouter (https://openrouter.ai/) APIs, used by developers in the command line.
     * Gemini-cli for some free coding command-line agentic coding stuff.
