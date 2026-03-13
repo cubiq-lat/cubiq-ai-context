@@ -22,7 +22,7 @@ The domain where it lives is at https://www.cubiq.lat
 
 ### Tech Stack
 
-* Svelte & Sveltekit for web projects (using Typescript).
+* Svelte & Sveltekit for web projects (using Typescript), with Tailwind CSS v4 + DaisyUI for UI.
 * Nestjs for their self-hosted API (in an Ubuntu Server via Cloudflare tunnels).
 * Tailscale for server orchestration and development access to the API server.
 * Docker for fast and standarized deployment of the Nestjs API.
