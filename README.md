@@ -38,6 +38,22 @@ The domain where it lives is at https://www.cubiq.lat
     * Transformers.js for local AI (we use it on our front-ends but mainly in our NestJS API; for example for spam detection in the CMS.Comments endpoints).
     * Claude in the web. 
 
+## Repositories
+
+| Repo | Description |
+|------|-------------|
+| [cubiq-front](https://github.com/minimo-io/cubiq-front) | Cubiq.lat front-end site and dashboards (private) |
+| [cubiq-api](https://github.com/minimo-io/cubiq-api) | Core APIs - the brain powering all products and BaaS (private) |
+| [taptapgo-app](https://github.com/minimo-io/taptapgo-app) | TapTapGO craft beer marketplace app (private) |
+| [betizen-ssg](https://github.com/minimo-io/betizen-ssg) | iGaming affiliate site (private) |
+| [cubiq-ai-context](https://github.com/cubiq-lat/cubiq-ai-context) | This repo - general context for AI agents (public) |
+
+## API Reference
+
+* API Docs: https://api.cubiq.lat/docs
+* Main API URL: https://api.cubiq.lat
+* Postman Collection: https://documenter.getpostman.com/view/44402542/2sBXVhBqLM
+
 ## Current Products
  * TapTapGO: Craft beer marketplace with benefits for clients (can find hard to find beers, earn cashback for buying in the app they can use in local bars associated), trying to solve customer reach for breweries and client managment, so they can focus in producing great beers).
  * Betizen.org: Casinos listings with focus on transparency ("The first Casino, Binary, and Forex listings site with the right incentives: karma, merit, and proof-of-work.").
