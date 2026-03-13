@@ -1,12 +1,6 @@
 # cubiq-ai-context
 Centralized knowledge base for AI agents working with Cubiq projects.
 
-# 🤖 Cubiq AI Context & Memory
-
-> **We are a Product-oriented Software Factory, a Digital Platform for SMBs, and Backend-as-a-Service for Startups. AI-driven, managed by humans: we create, operate, and scale digital businesses in LATAM 🚀**
-
----
-
 ## 📌 About This Repository
 
 This repository centralizes all the **institutional memory, guidelines, and context** necessary for Artificial Intelligences (LLMs) to work in alignment with **Cubiq**.
@@ -14,17 +8,18 @@ This repository centralizes all the **institutional memory, guidelines, and cont
 It functions as a **Single Source of Truth** for AI agents, code assistants (Cursor, Copilot), and automation workflows. The goal is to ensure consistency, quality, and adherence to our identity across all interactions.
 ---
 
-## 🏢 What is Cubiq
+## 🏢 What is Cubiq?
 
-### Visão Geral
+> **Cubiq is a Product-oriented Software Factory, a Digital Platform for SMBs, and Backend-as-a-Service for Startups. AI-driven, managed by humans: we create, operate, and scale digital businesses in LATAM 🚀**
+
+
+### General vision
+
+Cubiq is a product-led software factory, we build our own products, we are develping a platform, api + libraries to be effective in doing so. With the help of AI we want to quickly be able to prototype and launch digital projects (like a Factory, build the machine that builds machines), and it also serves other startups whit the APIs we build for ourselves (headless-ly used by their products) acting as a backend-as-a-service providers at the product level. With lots of cool APIs that can be founded at https://api.cubiq.lat/docs
+So we have a specific Tech-Stack we use, some Current Products being developed or "produced", some Strategic Objectives, a Tone of voice for articles, some existing companies and programmers we like and use as mentors, and a history of our Milestones. All that can be founded below. 
 
 Cubiq is a company founded in Uruguay, by Nicolas Erramuspe (https://www.linkedin.com/in/nicolas-erramuspe/) and Bruno Tassano (https://www.linkedin.com/in/bruno-tassano-7960a4b5/), in November 2025.
 The domain where it lives is at https://www.cubiq.lat
-
-Cubiq is a product-led software factory, it builds its own products withs its own sets of libraries and tecnologies created to quickly prototype and launch digital projects, and it also servers other startups whit the APIs they build for themselves (headless-ly used by their products) acting as a backend-as-a-service providers at the product level. With lots of cool APIs that can be founded at https://api.cubiq.lat/docs
-
-
-Basically they self-host their API which is 
 
 ### Tech Stack
 
@@ -41,19 +36,21 @@ Basically they self-host their API which is
     * Gemini-cli for some free coding command-line agentic coding stuff.
     * Transformers.js for local AI (we use it on our front-ends but mainly in our NestJS API; for example for spam detection in the CMS.Comments endpoints).
     * Claude in the web. 
-      
 
-
-## Reference programmers and company philosophy
-
-* DHH and 37Signals.
-
-### Current Products
+## Current Products
  * TapTapGO: Craft beer marketplace with benefits for clients (can find hard to find beers, earn cashback for buying in the app they can use in local bars associated), trying to solve customer reach for breweries and client managment, so they can focus in producing great beers).
  * Betizen.org: Casinos listings with focus on transparency ("The first Casino, Binary, and Forex listings site with the right incentives: karma, merit, and proof-of-work.").
  * Forex Affiliate Product (no name yet).
  * Appointment scheduling and client management software for beauty salons and clinics.
  * Payments API & Solutions for LATAM.
+
+### Strategic Objectives & Roadmap
+
+Cubiq's goal is to first develop a defined series of products—including Betizen (iGaming affiliation), our Forex affiliation product, the TapTapGo craft beer marketplace, and our SaaS for client management and scheduling for beauty salons and clinics—by January 2027. The objective is to build a business with a sustainable foundation focused on predictable revenue. From there, once our APIs are online and these products are established in the market or at least "live", we will foster the "Cubiq Laboratory" branch, where we will experiment with creating non-linear, asymmetric revenue projects.
+
+The idea is to build a small development and design team that will allow us to execute for both arms of Cubiq, heavily investing time in create the agentic AI tools and processes so we can cut costs, maximize experimentation and revenue.
+
+All our headless front-ends (apps, websites, dashboards) will consume our Nest APIs (the "heart" of Cubiq). That same API will be used in our back-end-as-a-service product.
 
 ### Tone of Voice Guidelines when Writting Articles
 * **Authority:** We speak as experts who master the technology and business ecosystem in LATAM.
@@ -61,10 +58,12 @@ Basically they self-host their API which is
 * **Human and Trustworthy:** We value human curation within our automated processes.
 * **Ambition:** Focused on "create, operate, and scale."
 
-### Strategic Objectives & Roadmap
+## Reference programmers and companies
 
-Cubiq's goal is to first develop a series of products—including Betizen (iGaming affiliation), our Forex affiliation product, the TapTapGo craft beer marketplace, and our SaaS for client management and scheduling for beauty salons and clinics—by January 2027. The objective is to build a business with a sustainable foundation focused on predictable revenue. From there, once our APIs are online and these products are established in the market or at least "live", we will foster the "Cubiq Laboratory" branch, where we will experiment with creating non-linear, asymmetric revenue projects.
+* DHH and 37Signals.
 
-The idea is to build a small development and design team that will allow us to execute for both arms of Cubiq, heavily investing time in create the agentic AI tools and processes so we can cut costs, maximize experimentation and revenue.
+# History of Milestones
 
-All our headless front-ends (apps, websites, dashboards) will consume our Nest APIs (the "heart" of Cubiq). That same API will be used in our back-end-as-a-service product.
+* **March 2026**: A 1yr development cycle of three products in the niches of Forex Affiliation, SaaS and Craft-Beer Marketplace is setup. Funded by the founders, 1/2 and 1/2. The goal is to have the three products plus the APIs live by Jan 2027.
+* **January 2026**: Bruno joins as a Co-Founder.
+* **November 2025**: Nicolas Founded Cubiq and launched the site and initial dashboards. Idea switch to become the Product-Led Software factory.
