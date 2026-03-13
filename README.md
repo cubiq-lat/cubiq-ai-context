@@ -3,60 +3,68 @@ Centralized knowledge base for AI agents working with Cubiq projects.
 
 # 🤖 Cubiq AI Context & Memory
 
-> **Impulsionados por IA, geridos por humanos: criamos, operamos e escalamos negócios digitais em LATAM 🚀**
+> **We are a Product-oriented Software Factory, a Digital Platform for SMBs, and Backend-as-a-Service for Startups. AI-driven, managed by humans: we create, operate, and scale digital businesses in LATAM 🚀**
 
 ---
 
-## 📌 Sobre Este Repositório
+## 📌 About This Repository
 
-Este repositório centraliza toda a **memória institucional, diretrizes e contexto** necessários para que Inteligências Artificiais (LLMs) trabalhem alinhadas com a **Cubiq**.
+This repository centralizes all the **institutional memory, guidelines, and context** necessary for Artificial Intelligences (LLMs) to work in alignment with **Cubiq**.
 
-Funciona como uma **Fonte Única de Verdade (Single Source of Truth)** para agentes de IA, assistentes de código (Cursor, Copilot) e fluxos de automação. O objetivo é garantir consistência, qualidade e aderência à nossa identidade em todas as interações.
-
+It functions as a **Single Source of Truth** for AI agents, code assistants (Cursor, Copilot), and automation workflows. The goal is to ensure consistency, quality, and adherence to our identity across all interactions.
 ---
 
-## 🏢 Identidade Cubiq
-
-*Esta seção define o "quem somos" para qualquer IA que acesse este repositório.*
+## 🏢 What is Cubiq
 
 ### Visão Geral
-A Cubiq é uma **Software Factory orientada a produtos**, atuando como **Plataforma Digital para PMEs** e **Backend-as-a-Service (BaaS) para Startups** na região da LATAM.
 
-### Pilares de Atuação
-1.  **Plataforma Digital para PMEs:** Foco em transformação digital, escalabilidade e otimização de processos. Entregamos soluções tecnológicas que resolvem dores de mercado, permitindo que pequenas e médias empresas cresçam com estrutura de nível enterprise.
-2.  **Backend-as-a-Service (BaaS) para Startups:** Fornecemos a infraestrutura de backend necessária para que startups reduzam seu *time-to-market*. Focamos em permitir que founders validem suas ideias e escalem seus produtos sem a fricção de construir do zero.
-3.  **Diferencial Competitivo (O DNA Cubiq):**
-    *   **IA + Humanos:** A tecnologia (IA) é utilizada para ganho de escala e eficiência, enquanto a gestão humana atua como o filtro crítico de qualidade, estratégia e viabilidade de negócio.
-    *   **Orientação a Produto:** Não somos uma fábrica de código passiva. Entendemos o negócio, o usuário final e o objetivo comercial antes da implementação.
+Cubiq is a company founded in Uruguay, by Nicolas Erramuspe (https://www.linkedin.com/in/nicolas-erramuspe/) and Bruno Tassano (https://www.linkedin.com/in/bruno-tassano-7960a4b5/), in November 2025.
+The domain where it lives is at https://www.cubiq.lat
 
-### Diretrizes de Tom de Voz
-*   **Autoridade:** Falamos como especialistas que dominam o ecossistema de tecnologia e negócios na LATAM.
-*   **Direto e Prático:** Evitamos excesso de jargões técnicos. O foco é valor e resultado.
-*   **Humano e Confiável:** Valorizamos a curadoria humana em nossos processos automatizados.
-*   **Ambição:** Focados em "criar, operar e escalar".
+Cubiq is a product-led software factory, it builds its own products withs its own sets of libraries and tecnologies created to quickly prototype and launch digital projects, and it also servers other startups whit the APIs they build for themselves (headless-ly used by their products) acting as a backend-as-a-service providers at the product level. With lots of cool APIs that can be founded at https://api.cubiq.lat/docs
 
-### Objetivos Estratégicos
-*   Ser o parceiro tecnológico definitivo para a jornada de crescimento de negócios digitais.
-*   Democratizar o acesso a desenvolvimento de alta performance.
-*   Estabelecer a Cubiq como referência em qualidade e eficiência no mercado de desenvolvimento da América Latina.
 
----
+Basically they self-host their API which is 
 
-## 📁 Estrutura do Repositório
+### Tech Stack
 
-```text
-.
-├── README.md                 # Você está aqui
-├── llms.txt                  # Padrão para descoberta automática por LLMs
-├── .cursorrules              # Regras específicas para IDE Cursor
-├── context/
-│   ├── company_profile.md    # Detalhes expandidos sobre a identidade Cubiq
-│   ├── tech_stack.md         # Stack tecnológico preferencial (Langs, Cloud, DB)
-│   ├── coding_standards.md   # Padrões de código, linting e testes
-│   ├── product_logic.md      # Regras de negócio para PMEs e Startups
-│   └── latam_guidelines.md   # Considerações regionais (i18n, compliance)
-├── prompts/
-│   ├── code_review.md        # Prompt base para review de código
-│   ├── feature_spec.md       # Prompt base para geração de especificações
-│   └── support tone.md       # Diretrizes para atendimento ao cliente
-└── .gitignore                # Ignora secrets, .env e arquivos locais
+* Svelte & Sveltekit for web projects (using Typescript).
+* Nestjs for their self-hosted API (in an Ubuntu Server via Cloudflare tunnels).
+* Tailscale for server orchestration and development access to the API server.
+* Docker for fast and standarized deployment of the Nestjs API.
+* Telegram API with a Bot in a Managment Group chat to interact, query the API and receive alerts.
+* Figma for design.
+* Tauri (with Sveltekit) as an app development framework.
+* Supabase Managed Postgres database.
+* For AI:
+    * Opencode (https://opencode.ai/) as an ai coding agent connected to Fireworks AI (https://fireworks.ai/) and/or OpenRouter (https://openrouter.ai/) APIs, used by developers in the command line.
+    * Gemini-cli for some free coding command-line agentic coding stuff.
+    * Transformers.js for local AI (we use it on our front-ends but mainly in our NestJS API; for example for spam detection in the CMS.Comments endpoints).
+    * Claude in the web. 
+      
+
+
+## Reference programmers and company philosophy
+
+* DHH and 37Signals.
+
+### Current Products
+ * TapTapGO: Craft beer marketplace with benefits for clients (can find hard to find beers, earn cashback for buying in the app they can use in local bars associated), trying to solve customer reach for breweries and client managment, so they can focus in producing great beers).
+ * Betizen.org: Casinos listings with focus on transparency ("The first Casino, Binary, and Forex listings site with the right incentives: karma, merit, and proof-of-work.").
+ * Forex Affiliate Product (no name yet).
+ * Appointment scheduling and client management software for beauty salons and clinics.
+ * Payments API & Solutions for LATAM.
+
+### Tone of Voice Guidelines when Writting Articles
+* **Authority:** We speak as experts who master the technology and business ecosystem in LATAM.
+* **Direct and Practical:** We avoid excessive technical jargon. The focus is on value and results.
+* **Human and Trustworthy:** We value human curation within our automated processes.
+* **Ambition:** Focused on "create, operate, and scale."
+
+### Strategic Objectives & Roadmap
+
+Cubiq's goal is to first develop a series of products—including Betizen (iGaming affiliation), our Forex affiliation product, the TapTapGo craft beer marketplace, and our SaaS for client management and scheduling for beauty salons and clinics—by January 2027. The objective is to build a business with a sustainable foundation focused on predictable revenue. From there, once our APIs are online and these products are established in the market or at least "live", we will foster the "Cubiq Laboratory" branch, where we will experiment with creating non-linear, asymmetric revenue projects.
+
+The idea is to build a small development and design team that will allow us to execute for both arms of Cubiq, heavily investing time in create the agentic AI tools and processes so we can cut costs, maximize experimentation and revenue.
+
+All our headless front-ends (apps, websites, dashboards) will consume our Nest APIs (the "heart" of Cubiq). That same API will be used in our back-end-as-a-service product.
