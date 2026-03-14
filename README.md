@@ -76,9 +76,9 @@ All our headless front-ends (apps, websites, dashboards) will consume our Nest A
 
 ## Reference programmers and companies
 
-* DHH (37signals, Co-Founder/CTO) - https://www.youtube.com/watch?v=vagyIcmIGOQ
-* Every Inc.
 * Jason Fried (37signals, Co-Founder/CEO) - https://www.youtube.com/watch?v=BdDCtMA1gSw
+* DHH (37signals, Co-Founder/CTO) - https://www.youtube.com/watch?v=vagyIcmIGOQ
+* Every Inc. (Dan Shipper, Founder/CEO) - https://www.youtube.com/watch?v=jGWZUC1WU3Y
 
 # History of Milestones
 
