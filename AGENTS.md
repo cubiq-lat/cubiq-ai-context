@@ -20,3 +20,5 @@ Api docs here: https://api.cubiq.lat/docs. For JSON format docs: https://api.cub
 ## General Behavior
 
 - Be concise in responses.
+- Never install new packages without asking for confirmation first.
+- At the start of each session or before beginning a new implementation, run `git pull` to fetch the latest changes.
