@@ -49,7 +49,9 @@ The domain where it lives is at https://www.cubiq.lat
 
 ## API Reference
 
-* API Docs: https://api.cubiq.lat/docs
+All Cubiq's products uses the Cubiq API as a Backend-as-a-Service
+
+* API Docs: https://api.cubiq.lat/docs — JSON format: https://api.cubiq.lat/docs-json
 * Main API URL: https://api.cubiq.lat
 * Postman Collection: https://documenter.getpostman.com/view/44402542/2sBXVhBqLM
 
