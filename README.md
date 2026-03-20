@@ -70,11 +70,12 @@ The idea is to build a small development and design team that will allow us to e
 
 All our headless front-ends (apps, websites, dashboards) will consume our Nest APIs (the "heart" of Cubiq). That same API will be used in our back-end-as-a-service product.
 
-### Tone of Voice Guidelines when Writting Articles
-* **Authority:** We speak as experts who master the technology and business ecosystem in LATAM.
-* **Direct and Practical:** We avoid excessive technical jargon. The focus is on value and results.
-* **Human and Trustworthy:** We value human curation within our automated processes.
-* **Ambition:** Focused on "create, operate, and scale."
+### Writing Articles
+Cubiq articles are written in the voice of the founding partners. Each has a distinct style suited to their area of expertise. For full voice guidelines, article structure, and examples, see the respective skill.
+
+- **Nicolas** — *The Pragmatic Rebel.* Cubiq's technical lead overseeing all products and platform development. Philosophical opener, sharp analogies, anti-bloat stance. Provokes thinking, then delivers business value. Best for: tech, AI, developer tools. See `write-cubiq-article-like-nicolas`.
+
+- **Bruno** — [TBD]
 
 ## Reference programmers and companies
 
